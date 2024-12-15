@@ -1,0 +1,6 @@
+@FactoryMethodWebApp_HostAddress = http://localhost:5049
+
+GET {{FactoryMethodWebApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

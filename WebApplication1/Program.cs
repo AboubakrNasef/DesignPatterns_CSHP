@@ -10,7 +10,7 @@ builder.Logging.ClearProviders();
 builder.Logging.AddProvider(new CustomerLoggerProvider());
 
 builder.Logging.AddSerilog();
-
+builder.Services.AddHttpClient();
 builder.Services.TryAddSingleton<ObjectPoolProvider, DefaultObjectPoolProvider>();
 
 builder.Services.TryAddSingleton<ObjectPool<StringBuilder>>(serviceProvider =>
@@ -37,9 +37,10 @@ app.UseHttpsRedirection();
 
 
 
-app.MapGet("/", (ILogger <Program> logger) =>
+app.MapGet("/", (IHttpClientFactory httpClientFactory) =>
 {
-   logger.LogInformation("HelloWorld From Call");
+    httpClientFactory.CreateClient("he");
+ 
     return "hello";
 })
 .WithName("GetWeatherForecast")
