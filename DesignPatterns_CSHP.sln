@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactoryMethod", "SimpleFactoryMethod\SimpleFactoryMethod.csproj", "{F3548298-12A3-4EC2-BB6E-1D98FB436C5C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPattern", "IteratorPattern\IteratorPattern.csproj", "{0D3853F7-C8B4-455D-BD91-55A191265A68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodWebApp", "FactoryMethodWebApp\FactoryMethodWebApp.csproj", "{8C1E86E0-8475-46B5-9C23-750BF56453DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorMongoDb.cs", "IteratorMongoDb.cs\IteratorMongoDb.cs.csproj", "{2BB29EF8-1C64-4B0F-9620-8862EE145A90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F3548298-12A3-4EC2-BB6E-1D98FB436C5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F3548298-12A3-4EC2-BB6E-1D98FB436C5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F3548298-12A3-4EC2-BB6E-1D98FB436C5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F3548298-12A3-4EC2-BB6E-1D98FB436C5C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8C1E86E0-8475-46B5-9C23-750BF56453DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8C1E86E0-8475-46B5-9C23-750BF56453DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8C1E86E0-8475-46B5-9C23-750BF56453DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8C1E86E0-8475-46B5-9C23-750BF56453DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D3853F7-C8B4-455D-BD91-55A191265A68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D3853F7-C8B4-455D-BD91-55A191265A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D3853F7-C8B4-455D-BD91-55A191265A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D3853F7-C8B4-455D-BD91-55A191265A68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BB29EF8-1C64-4B0F-9620-8862EE145A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BB29EF8-1C64-4B0F-9620-8862EE145A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BB29EF8-1C64-4B0F-9620-8862EE145A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BB29EF8-1C64-4B0F-9620-8862EE145A90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
